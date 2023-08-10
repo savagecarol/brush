@@ -1,21 +1,17 @@
 {
-  "short_name": "Brush",
-  "name": "Brush",
-  "icons": [
-    {
-      "src": "brush.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "brush.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "brush.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ]
-}
+  "name" : "Brush",
+  "description" : "json formatter and notes",
+  "version" : "1.0",
+  "manifest_version" : 3,
+  "action" : {
+      "default_title" : "Brush",
+      "default_popup" : "index.html",
+      "default_icon" : {
+          "16":"brush.png",
+          "128": "brush.png"
+      }
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html" 
+  }
+} 
