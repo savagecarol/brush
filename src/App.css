@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flexBox{
+  margin: 20px;
   display: flex;
+  justify-content: space-between;
+}
+
+.addButton{
+  border-radius: 50%;
+  font-weight: 800;
+  font-size: 2em;
+  padding: 10px 20px ;
+  text-align: center;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.googleButton{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  height: 80px;
+  width: 80px;
+}
+
+
+.mainArea{
+  width: 70%;
+  margin-left: 20px;  
+}
+
+.buttonArea{
+  width: 8%;
+}
+
+.jsonMainArea{
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20px;
+  padding: 2px;
+}
+
+.subMainArea{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+.customButton{
+  position: fixed;
+  right: 20px;
+  background-color: chocolate;
   color: white;
+  border: none;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  font-size: 1.2em;
 }
 
-.App-link {
-  color: #61dafb;
+.titleInput{
+  font-size: 1.4em;
+  font-weight: bolder;
+  border: none;
+  padding: 2px;
+  overflow-x: scroll;
+  resize: none;
+  outline: none;
+  overflow: hidden;
+  overflow-y: scroll;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.textInput{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  font-size: 1.4em;
+  outline: none;
+  resize: none;
+  width: 100%;
+  overflow: hidden;
 }
+
+.jsonInput{
+  margin-top: 20px;
+  border: none;
+  font-size: 1.2em;
+  outline: none;
+  resize: none;
+  width: 100%;
+  background-color: #D3D3D3  ;
+  height: 66vh;
+  padding: 10px;
+}
+
+
+
+.jsonPrettyArea{
+  width: 100%;
+  background-color: rgb(192, 185, 185);
+  height: 66vh;
+  overflow-y: scroll;
+  font-size: 1.2em;
+  padding: 10px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.sideArea{
+  width: 22%;
+}
+
+.sideBarFlex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.pageImage{
+  font-family: 'Courier New', Courier, monospace;
+  min-height: .1em;
+  background-color: orange;
+  padding: 12px 16px;
+  margin: 12px 0px 0px 0px;
+  border-radius: 50%;
+}
+
+.pageTitle{
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #808080;
+  margin: 12px 0px 0px 10px;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  min-height: 1em;
+  min-width:70%;
+  word-wrap: break-word;  
+}
+
+
+
+
+
+
